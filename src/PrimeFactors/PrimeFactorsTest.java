@@ -6,6 +6,8 @@ import static org.junit.Assert.*;
 import java.util.Arrays;
 import java.util.List;
 
+import javax.crypto.AEADBadTagException;
+
 import org.junit.Test;
 
 public class PrimeFactorsTest {
@@ -23,5 +25,10 @@ public class PrimeFactorsTest {
 	@Test
 	public void test2() throws Exception {
 		assertEquals(list(2), generate(2));
+	}
+	
+	@Test
+	public void test3() throws Exception {
+		assertEquals(list(3), generate(3));
 	}
 }
