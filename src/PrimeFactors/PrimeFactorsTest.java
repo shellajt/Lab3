@@ -18,22 +18,27 @@ public class PrimeFactorsTest {
 	}
 	
 	@Test
-	public void test1() {
+	public void testOne() {
 		assertEquals(list(), generate(1));
 	}
 
 	@Test
-	public void test2() throws Exception {
+	public void testTwo() throws Exception {
 		assertEquals(list(2), generate(2));
 	}
 	
 	@Test
-	public void test3() throws Exception {
+	public void testThree() throws Exception {
 		assertEquals(list(3), generate(3));
 	}
 	
 	@Test
-	public void test4() throws Exception {
+	public void testFour() throws Exception {
 		assertEquals(list(2,2), generate(4));
+	}
+	
+	@Test
+	public void testSix() throws Exception {
+		assertEquals(list(2,3), generate(6));
 	}
 }
