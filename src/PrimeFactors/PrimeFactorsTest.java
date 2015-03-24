@@ -9,14 +9,18 @@ import org.junit.Test;
 
 public class PrimeFactorsTest {
 
+	private List<Integer> list(Integer...integers) {
+		// TODO Auto-generated method stub
+		return Arrays.asList(integers);
+	}
+	
 	@Test
 	public void test1() {
 		assertEquals(list(), PrimeFactors.generate(1));
 	}
 
-	private List<Integer> list() {
-		// TODO Auto-generated method stub
-		return Arrays.asList();
+	@Test
+	public void test2() throws Exception {
+		assertEquals(list(2), PrimeFactors.generate(2));
 	}
-
 }
