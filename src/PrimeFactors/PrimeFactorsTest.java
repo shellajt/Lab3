@@ -49,4 +49,11 @@ public class PrimeFactorsTest {
 	public void testNine() throws Exception {
 		assertEquals(list(3,3), generate(9));
 	}
+	
+//	This test is included in the lab instructions, but does 
+// 	not fail when added. Not usefull for TDD.
+//	@Test
+//	public void test325115() throws Exception {
+//		assertEquals(list(5,7,7,1327), generate(325115));
+//	}
 }
