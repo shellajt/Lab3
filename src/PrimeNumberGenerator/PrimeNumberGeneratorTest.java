@@ -33,7 +33,8 @@ public class PrimeNumberGeneratorTest {
 	   public static Collection primeNumbers() {
 	      return Arrays.asList(new Object[][] {
 	         { 1, list() },
-	         { 3, list(2) }
+	         { 3, list(2) },
+	         { 4, list(2,3) }
 	      });
 	   }
 
