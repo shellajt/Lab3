@@ -5,15 +5,11 @@ import static org.junit.Assert.*;
 
 import java.util.Arrays;
 import java.util.List;
-
-import javax.crypto.AEADBadTagException;
-
 import org.junit.Test;
 
 public class PrimeFactorsTest {
 
 	private List<Integer> list(Integer...integers) {
-		// TODO Auto-generated method stub
 		return Arrays.asList(integers);
 	}
 	
@@ -37,6 +33,8 @@ public class PrimeFactorsTest {
 		assertEquals(list(2,2), generate(4));
 	}
 	
+// This test is included in the lab instructions, 
+//	but does not fail when added. Not useful for TDD.	
 //	@Test
 //	public void testSix() throws Exception {
 //		assertEquals(list(2,3), generate(6));
