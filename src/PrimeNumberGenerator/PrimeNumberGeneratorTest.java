@@ -38,7 +38,7 @@ public class PrimeNumberGeneratorTest {
 	      });
 	   }
 
-	   // This test will run 5 times since we have 5 parameters defined
+	   // This test will run ? times since we have ? parameters defined
 	   @Test
 	   public void testPrimeNumberChecker() {
 	      assertEquals(expectedResult, generate(input));
