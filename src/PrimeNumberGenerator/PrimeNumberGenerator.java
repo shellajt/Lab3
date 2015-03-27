@@ -9,7 +9,7 @@ public class PrimeNumberGenerator {
 		ArrayList<Integer> primes = new ArrayList<Integer>();
 		if(i >= 3) primes.add(2);
 		if(i >= 4) primes.add(3);
-		
+		if(i >= 6) primes.add(5);
 		return primes;
 	}
 }
