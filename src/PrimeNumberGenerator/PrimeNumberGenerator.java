@@ -12,6 +12,7 @@ public class PrimeNumberGenerator {
 		if(i >= 6) primes.add(5);
 		if(i >= 8) primes.add(7);
 		
+		
 		return primes;
 	}
 }
