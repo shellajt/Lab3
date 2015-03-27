@@ -19,6 +19,7 @@ public class PrimeNumberGenerator {
 				primes.add(7);
 		}
 		if(i >= 11) primes.add(11);
+		if(i >= 14) primes.add(13);
 		
 		return primes;
 	}
