@@ -10,7 +10,6 @@ import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
 public class PrimeNumberGeneratorTest {
@@ -37,7 +36,8 @@ public class PrimeNumberGeneratorTest {
 	         { 4, list(2,3) },
 	         { 6, list(2,3,5) },
 	         { 8, list(2,3,5,7) },
-	         { 12, list(2,3,5,7,11) }
+	         { 12, list(2,3,5,7,11) },
+	         { 14, list(2,3,5,7,11,1) }
 	      });
 	   }
 
